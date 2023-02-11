@@ -78,7 +78,7 @@ nav .container {
     border: none;
 }
 
-h3 {
+.card-header {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
@@ -141,4 +141,45 @@ blockquote {
 
 .quote cite {
     margin-left: 3px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta {
+    padding: 50px 150px;
+    margin: 180px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    line-height: 80%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.cta p {
+    font-weight: 200;
+}
+
+.cta button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 15px;
+    flex: 0 1 auto;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
 }
