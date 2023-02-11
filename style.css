@@ -1,0 +1,38 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7Eb;   
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav .container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
