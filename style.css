@@ -117,7 +117,7 @@ h3 {
 } 
 
 .quote {
-    padding: 60px 290px;
+    padding: 100px 290px;
     background-color: #E5E7Eb;
     margin: 0px;
 }
@@ -134,6 +134,9 @@ blockquote {
 .quote figcaption {
     padding: 0px;
     text-align: right;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .quote cite {
