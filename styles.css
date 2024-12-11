@@ -14,6 +14,11 @@ body {
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    padding: 20px 210px;
+}
+
 .quote-container {
     background-color: #E5E7EB;
 }
@@ -38,6 +43,7 @@ li, .hero p, .footer {
 .header p {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
 }
 
 button, .cta {
@@ -49,4 +55,11 @@ button, .cta {
     font-weight: 300;
     font-style: italic; 
     color: #1F2937;   
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    gap: 30px;
 }
