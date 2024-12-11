@@ -19,6 +19,15 @@ body {
     padding: 20px 210px;
 }
 
+.hero {
+    display: flex;
+    padding: 120px 210px;   
+}
+
+.hero img {
+    flex: 0 0 520px;
+}
+
 .quote-container {
     background-color: #E5E7EB;
 }
