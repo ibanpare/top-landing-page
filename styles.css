@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 body {
@@ -67,6 +68,7 @@ button {
     font-size: 18px;
     color: #F9FAF8;
     border-radius: 10px;
+    font-weight: 600;
 }
 
 button, .cta {
