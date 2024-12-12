@@ -21,11 +21,14 @@ body {
 
 .hero {
     display: flex;
-    padding: 120px 210px;   
+    padding: 100px 210px;   
 }
 
 .hero img {
-    flex: 0 0 520px;
+    width: 520px;
+    height: auto;
+    flex: auto;
+    margin-left: 50px;
 }
 
 .quote-container {
@@ -53,6 +56,17 @@ li, .hero p, .footer {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 600;
+}
+
+.hero p {
+    margin: 5px 0px 15px 0px;
+}
+
+button {
+    padding: 10px 35px;
+    font-size: 18px;
+    color: #F9FAF8;
+    border-radius: 10px;
 }
 
 button, .cta {
