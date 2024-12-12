@@ -46,6 +46,8 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
+    margin: 50px 0px;
 }
 
 li, .hero p, .footer {
@@ -87,4 +89,24 @@ ul {
     list-style-type: none;
     margin-left: auto;
     gap: 30px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 75px;
+}
+
+.image-card {
+    max-width: 150px;
+}
+
+.image-card img {
+    width: 150px;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
